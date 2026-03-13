@@ -26,6 +26,8 @@ in pkgs.mkShell rec {
     pythonPackages.matplotlib
     pythonPackages.opencv4
     pythonPackages.scikit-image
+    pythonPackages.torch
+    pythonPackages.torchvision
 
     # sometimes you might need something additional like the following - you will get some useful error if it is looking for a binary in the environment.
     zlib
