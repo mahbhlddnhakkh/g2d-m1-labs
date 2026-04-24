@@ -28,6 +28,7 @@ in pkgs.mkShell rec {
     pythonPackages.scikit-image
     pythonPackages.torch
     pythonPackages.torchvision
+    pythonPackages.torchsummary
     pythonPackages.scipy
 
     # sometimes you might need something additional like the following - you will get some useful error if it is looking for a binary in the environment.
