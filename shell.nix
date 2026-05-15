@@ -29,6 +29,7 @@ in pkgs.mkShell rec {
     pythonPackages.torch
     pythonPackages.torchvision
     pythonPackages.torchsummary
+    pythonPackages.ultralytics
     pythonPackages.scipy
 
     # sometimes you might need something additional like the following - you will get some useful error if it is looking for a binary in the environment.
